@@ -1,4 +1,4 @@
-BEFORE YOU RUN:
+## Before running
 - Change IP in _helpers.js on line 18 to match your devices ip
 - Create .env file with: ROBOFLOW_API_KEY="add-your-api-key-here"
   (note: you need a roboflow account to get your own api key)
@@ -7,6 +7,7 @@ BEFORE YOU RUN:
 - Run backend/app.py 
 - Run npx expo start
 
+## Overview
 This is an accessibility rating app developed in React Expo for
 my final year project in my third year of uni.
 
@@ -20,12 +21,12 @@ reviews. The app pulls all location and review data from a
 firebase realtime database. App developed and tested using a
 Genymotion emulator.
 
-What I learnt:
+## What I learnt
 - Further improved upon working with React
 - How to implement a backend (that isn't firebase)
 - How to use APIs in a project
 
-Improvements: 
+## Improvements
 - More engaging and appealing UI 
 - More sophisticated object detection (with better and larger datasets)
 - A map showing all local public spaces that the user can click on 
